@@ -5,8 +5,12 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
+  --primary-green: #21bd06;
+  --primary-hover-green: #1e5215;
+
+  
 }
 
 body {
-  font-family: "Roboto Condensed" sans-serif !important;
+  font-family: "Roboto Condesed", sans-serif !important;
 }
