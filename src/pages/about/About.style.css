@@ -1,0 +1,21 @@
+.about {
+    background-color: transparent;
+    font-size: 1.1rem;
+}
+.profile {
+    max-width: 16rem;
+}
+.my-description {
+    background-color: rgba(199, 185, 185, 0.75);
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+.heading-1 {
+    text-transform: uppercase;
+}
+.font-details {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--primary-hover-blue-dark)
+}
