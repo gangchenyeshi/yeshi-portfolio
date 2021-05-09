@@ -21,13 +21,6 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.container-box {
-  width: 80%;
-  background-color: transparent;
-  position: relative;
-  z-index: 9;
-}
-
 .particles-box {
   position: absolute;
   top: 0;
@@ -36,10 +29,24 @@ hr {
   height: 100%;
   z-index: 1;
 }
+/* .container-box {
+  width: 80%;
+  background-color: transparent;
+  position: relative;
+  z-index: 9;
+}
+
+
 .parallex {
     background: url("./assets/img/parallex/background.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     margin-top: 0.625rem;
-  }
+  } */
+  .font-details {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--primary-hover-blue-dark);
+    text-transform: uppercase;
+}

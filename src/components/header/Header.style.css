@@ -1,7 +1,8 @@
 /* -------HEADER----------*/
 .header-wrapper {
     position: relative;
-    background: url("../assets/header.jpg") no-repeat;
+    /* background: url("../assets/header.jpg") no-repeat; */
+    background: url("../../assets/header.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 90vh;

@@ -2,6 +2,9 @@ import React from 'react';
 import ProfileImg from "../../assets/img/profile/yeshi.png";
 import ".././about/About.style.css";
 
+// npm
+import Fade from 'react-reveal/Fade';
+import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -13,10 +16,19 @@ import Button from 'react-bootstrap/Button';
  
 const About = () => {
     return (
-        <div>
+            <div className="parallex">
+        <Parallax
+          blur={10}
+        //   bgImage={require("../../assets/img/parallex/background.jpg")}
+          bgImageAlt=""
+          strength={200}
+        >
+          <Container className="container-box rounded">
+            <Fade left>
+
             <div id="about">
                 <div className="about mt-10 mb-10">
-                    <h1 className="pt-3 text-center font-details pb-3 heading-1">About Me</h1>
+                    <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
                     <Container>
                         <Row className="pt-3 pb-5 align-item-center">
                             {/* Profile Picture */}
@@ -35,8 +47,13 @@ const About = () => {
                                     <p>During seven years working in information technologies, I learned and discovered a passion for computer sciences. My fascination for web development and mobile technologies  drove me to intensive learning of these skills through specific
                                 certifications. I'm currently following a specialized degree on web & mobile development with Konexio in order to become an expert as a full stack web & mobile developer. <b>Therefore looking for a 4 to 6 months internship, and I am available now. </b></p>
                                 </Row>
+                            </Col>
+                        </Row>
+
+                        <Row className="pt-3 pb-5 d-flex justify-content-center align-item-center">
+                        <Col  xs={12} md={12}>
                                 {/* Links Button */}
-                                <Row className="d-flex justify-content-center">
+                                <Row className="">
                                     <div>
                                         <a href="#">
                                             {/* <FontAwesomeIcon icon={faGithub} /> */}
@@ -51,11 +68,14 @@ const About = () => {
                                     </div>
                                 </Row>
                             </Col>
-
                         </Row>
                     </Container>
                 </div>
             </div>
+            
+            </Fade>
+          </Container>
+        </Parallax>
         </div>
     )
 }

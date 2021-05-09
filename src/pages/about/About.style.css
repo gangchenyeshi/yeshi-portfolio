@@ -11,11 +11,24 @@
     justify-content: center;
     align-items: center;
 }
-.heading-1 {
-    text-transform: uppercase;
-}
 .font-details {
     font-size: 3rem;
     font-weight: 500;
-    color: var(--primary-hover-blue-dark)
+    color: var(--primary-hover-blue-dark);
+    text-transform: uppercase;
 }
+.container-box {
+    width: 80%;
+    background-color: transparent;
+    position: relative;
+    z-index: 9;
+  }
+  
+  
+.parallex {
+      background: url("../../assets/img/parallex/background.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      margin-top: 0.625rem;
+    }

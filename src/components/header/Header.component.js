@@ -1,12 +1,11 @@
 import React from 'react';
-import "../css/Header.css";
+import "../header/Header.style.css";
 import Typed from 'react-typed';
 
 const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <img src=".././image/logo.png" alt="Yeshi Tsering"/>
                 <h1>I am Looking for Intern</h1>
                 <h2>
                     Web developer -
