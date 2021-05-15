@@ -2,6 +2,8 @@ import React from 'react';
 import "../header/Header.style.css";
 import Typed from 'react-typed';
 
+import yeshCV from "../../assets/YeshiTseringGANGHCENCVwebDeveloper.pdf"
+
 const Header = () => {
     return (
         <div className="header-wrapper">
@@ -22,7 +24,7 @@ const Header = () => {
                     </Typed>
                     </span>
                 </h2>
-                <a href="#" className="my-cv">Download CV</a>
+                <a href={yeshCV} className="my-cv"  target="_blank">Download CV</a>
 
             </div>
         </div>
