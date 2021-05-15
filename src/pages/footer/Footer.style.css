@@ -1,0 +1,8 @@
+.footer-style {
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+    font-size: 1rem;
+    border: 2px solid var(--primary-dark);
+    border-top-left-radius: 5px;
+    padding: 1rem;
+}

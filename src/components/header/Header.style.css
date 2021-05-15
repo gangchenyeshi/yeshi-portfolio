@@ -44,15 +44,20 @@
     color: var(--primary-white);
     margin: 2rem;
     text-decoration: none;
-    background-color: #6b6e6b;
+    background-color: var(--primary-dark);
 }
 .my-cv:hover {
     text-decoration: none;
-    background-color: var(--primary-hover-green);
-    color: var(--primary-white);
+    background-color: var(--primary-orange);
+    color: var(--primary-dark);
     transition: .3s ease-in-out;
+    font-weight: bold;
 }
 
+.highlight {
+    background: rgba(0,0,0,0.5);
+    padding: 1rem;
+}
 @media(max-width: 768px) {
     .typed {
         font-size: 1.7rem;

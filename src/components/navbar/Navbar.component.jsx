@@ -1,47 +1,77 @@
 import React from 'react';
-// import mylogo from "../assets/logo.png";
 import mylogo from "../../assets/logo.png";
 import "../navbar/Navbar.style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
     return (
-
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-            <div className="container">
-                <a className="navbar-brand" href="#">
-                    <img src={mylogo} className="logo" alt="Logo..."/>
-                    </a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    {/* <span className="navbar-toggler-icon"></span> */}
-                    <FontAwesomeIcon icon={faBars} style={{ color:"#fff"}}/>
+        <>
+            {/* <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+                <a class="navbar-brand" href="/">
+                    <img src={mylogo} className="logo" alt="Logo..." />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
                 </button>
-               
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <a className="nav-link " aria-current="page" href="#">Home </a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">About me</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Portfolio</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Recipes</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Skills</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="post.html">Post</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Experiences</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
+            </nav> */}
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+                <h2>
+                    <a class="navbar-brand" href="/">
+                        <img src={mylogo} className="logo" alt="Logo..." />
+                    </a>
+                </h2>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
+                </button>
+                <div className="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="/">Home </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#training">Training</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </>
     )
 }
 

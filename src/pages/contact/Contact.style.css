@@ -1,0 +1,10 @@
+.contact-jumbotron {
+    background-image: url("../../assets/img/background/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icons{
+    font-size: 1.5rem;
+    margin-right: 0.3rem;
+}

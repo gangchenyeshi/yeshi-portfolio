@@ -17,8 +17,8 @@ nav ul li {
 .navbar-nav > li > a {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-    color: var(--primary-white) !important; /* var(--primary-white) is declared in App.css root*/
-    border-top: 0.187rem solid var(--primary-dark);
+    color:rgb(184, 184, 184) !important; /* var(--primary-white) is declared in App.css root*/
+    border-top: 0.187rem solid rgb(41, 40, 40);
 }
 .navbar-brand {
     max-width: 17.25rem;
@@ -27,7 +27,9 @@ nav ul li {
 }
 .navbar-nav > li > a:active, .navbar-nav > li > a.active:focus {
     border-top: 0.1875rem solid var(--primary-orange);
+    color: var(--primary-white) !important; /* var(--primary-white) is declared in App.css root*/
 }
 .navbar-nav > li > a:hover {
     border-top: 0.1875rem solid var(--primary-orange);
+    color: var(--primary-white) !important; /* var(--primary-white) is declared in App.css root*/
 }

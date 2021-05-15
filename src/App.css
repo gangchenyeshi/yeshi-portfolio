@@ -4,7 +4,7 @@
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
-  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-dark: #000;
   --primary-green: #21bd06;
   --primary-hover-green: #1e5215;
   --primary-hover-blue-dark: #231d5af8;

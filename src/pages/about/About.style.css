@@ -1,7 +1,12 @@
+#about {
+    padding-top: 96px;
+}
+
 .about {
     background-color: transparent;
     font-size: 1.1rem;
 }
+
 .profile {
     max-width: 16rem;
 }

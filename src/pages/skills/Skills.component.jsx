@@ -13,10 +13,10 @@ import { skills } from "./skills-data";
 
 const Skills = () => {
     return (
-        <div>
+        <div id="skills">
             <Container className="container-box rounded">
                 <Fade bottom>
-                    <div id="skills" className="pt-3 pb-3" >
+                    <div  className="pt-3 pb-3" >
                         <h1 className="text-center font-details-b pb-4">Tech Skills</h1>
 
                         <CardDeck>

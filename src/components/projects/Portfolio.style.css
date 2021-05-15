@@ -1,0 +1,40 @@
+#portfolio {
+  padding-top: 96px;
+}
+.accordian-main {
+    cursor: pointer;
+    display: inline-block;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 0.375remx;
+  
+    padding: 0.75rem;
+    color: #fff;
+  }
+  
+  .list-styles {
+    list-style-type: circle;
+  }
+  
+  .image-style1 {
+    width: 3em;
+  }
+  
+  .view-button{
+    border: 1px solid var(--primary-green);
+    text-transform: uppercase;
+    border-radius: 0.375rem;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: var(--primary-white);
+    text-decoration: none;
+    background-color: #030303;
+}
+.view-button:hover {
+    text-decoration: none;
+    background-color: var(--primary-orange);
+    color: var(--primary-dark);
+    transition: .3s ease-in-out;
+}

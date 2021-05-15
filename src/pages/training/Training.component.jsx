@@ -8,17 +8,16 @@ import L_KONEXIO from "../../assets/img/training/konexio.png";
 
 // npm package
 import Tilt from 'react-tilt';
-import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 
 
 const Experience = () => {
     return (
-        <div>
+        <div id="training" className="training">
             <Container className="container-box rounded">
                 <Slide bottom duration={500}>
                     <hr />
-                        <h1 className="pt-3 text-center font-details-b pb-3">Experience</h1>
+                        <h1 className="pt-3 text-center font-details-b pb-3">Training</h1>
                         <Jumbotron className="jumbotron-style">
                             <Container >
                                 <Tilt options={{ max: 25 }}>

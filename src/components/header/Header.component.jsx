@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>I am Looking for Intern</h1>
-                <h2>
+                <h1 className="highlight">I am Looking for Intern</h1>
+                <h2  className="highlight">
                     Web developer -
                     <span>
                     <Typed
