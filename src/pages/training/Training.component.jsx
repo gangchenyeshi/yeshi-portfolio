@@ -37,7 +37,8 @@ const Experience = () => {
                                                         <li><strong>Technology:</strong> JavaScript, React JS, React Native, Node JS, Express, MongoDB, MS-SQL, HTML, CSS, Bootstrap</li>
 
                                                         <li><strong>Duration:</strong> Nov 2020 - Present</li>
-                                                        <li><strong> Description </strong> Nov 2020 - Present</li>
+                                                        <li><strong> Description </strong> I am currently in training as a Full-stack Web developer at Konexio and I am actively looking for a company that could welcome me as part of an agreed internship lasting 4 to 6 months in order to validate my training.</li>
+                                                        <p>This training allows me to create a fully responsive and Dynamic web page.</p>
                                                     </ul>
                                                 </Card.Text>
                                             </div>
