@@ -61,8 +61,8 @@ const About = () => {
                                             <Row className=" align-items-start p-2  rounded">
                                                 <p>Hello ! I am <strong>Yeshi Tsering GANGCHEN</strong></p>
                                                 <p>A passionate programmer, i am a Full Stack Web Developer with React.js, Redux, Express.js Node.js and MongoDB as my tech Stack.</p>
-                                                <p>During seven years working in information technologies, I learned and discovered a passion for computer sciences. My fascination for web development and mobile technologies  drove me to intensive learning of these skills through specific
-                                certifications. I'm currently following a specialized degree on web & mobile development with Konexio in order to become an expert as a full stack web & mobile developer. <b>Therefore looking for a 4 to 6 months internship, and I am available now. </b></p>
+                                                <p>During seven years working in information technologies, I learned and discovered a passion for computer sciences. My fascination for web development and mobile technologies drove me to intensive learning of these skills through specific certifications. I'm currently working an intern at EMAX in order to become an expert as a full stack web & mobile developer. <b>. I'm also looking for an internship for longer period for gain an experience, I am available after 20 Aug 2021.
+</b></p>
                                             </Row>
                                         </Col>
                                     </Row>

@@ -24,6 +24,7 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_KNEXJS from "../../assets/img/skills/knexjs.svg";
 
 export const skills = {
   frontend: [
@@ -39,12 +40,12 @@ export const skills = {
       imgSrc: L_CSS3,
       skillName: "CSS3",
     },
-    {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
-    },
+    // {
+    //   link: "https://www.javascript.com/",
+    //   imgAltText: "JavaScript",
+    //   imgSrc: L_JAVASCRIPT,
+    //   skillName: "JavaScript",
+    // },
     // {
     //   link: "https://sass-lang.com/",
     //   imgAltText: "Sass",
@@ -75,12 +76,12 @@ export const skills = {
     //   imgSrc: L_REACT_ROUTER,
     //   skillName: "React Router",
     // },
-    // {
-    //   link: "https://material-ui.com/",
-    //   imgAltText: "Material-UI",
-    //   imgSrc: L_MATERIALUI,
-    //   skillName: "Material-UI",
-    // },
+    {
+      link: "https://material-ui.com/",
+      imgAltText: "Material-UI",
+      imgSrc: L_MATERIALUI,
+      skillName: "Material-UI",
+    },
     {
       link: "https://react-bootstrap.github.io/",
       imgAltText: "React Bootstrap",
@@ -108,6 +109,12 @@ export const skills = {
       imgAltText: "Express",
       imgSrc: L_EXPRESS,
       skillName: "Express",
+    },
+    {
+      link: "https://knexjs.org//",
+      imgAltText: "knexJS",
+      imgSrc: L_KNEXJS,
+      skillName: "Knex JS",
     },
     // {
     //   link: "https://www.djangoproject.com/",
@@ -175,18 +182,19 @@ export const skills = {
     // },
   ],
   databases: [
-    // {
-    //   link: "https://www.postgresql.org/",
-    //   imgAltText: "PostgreSQL",
-    //   imgSrc: L_POSTGRESQL,
-    //   skillName: "PostgreSQL",
-    // },
+    
     
     {
       link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
+    },
+    {
+      link: "https://www.postgresql.org/",
+      imgAltText: "PostgreSQL",
+      imgSrc: L_POSTGRESQL,
+      skillName: "PostgreSQL",
     },
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
