@@ -2,7 +2,7 @@ import React from 'react';
 import "../header/Header.style.css";
 import Typed from 'react-typed';
 
-import yeshiCV from "../../assets/YeshiTseringGANGHCENCVwebdeveloper.pdf"
+import yeshiCV from "../../assets/YeshiTseringGangchenCv.pdf";
 
 const Header = () => {
     return (
