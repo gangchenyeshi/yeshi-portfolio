@@ -24,8 +24,7 @@ const Header = () => {
                     </Typed>
                     </span>
                 </h2>
-                <a href={yeshiCV} className="my-cv"  target="_blank">Download CV</a>
-
+                <a href={yeshiCV} className="my-cv"  target="_blank"  rel="noreferrer">Download CV</a>
             </div>
         </div>
     )

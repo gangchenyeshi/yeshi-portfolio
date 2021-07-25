@@ -4,8 +4,6 @@ import "../navbar/Navbar.style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-import { Link } from "react-router-dom";
-
 const Navbar = () => {
     return (
         <>

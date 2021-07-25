@@ -13,15 +13,10 @@ import Portfolio from "../src/components/projects/Portfolio.component";
 import Contact from "../src/pages/contact/Contact.component";
 import Footer from "../src/pages/footer/Footer.component";
 
-// npm
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { AnimatedSwitch } from 'react-router-transition';
-
 function App() {
   return (
 
     <>
-      
       <Navbar />
 
       <Header />
@@ -30,8 +25,8 @@ function App() {
       <Training />
       <Portfolio />
       <Contact />
-      
-       <Footer />
+
+      <Footer />
     </>
 
   );

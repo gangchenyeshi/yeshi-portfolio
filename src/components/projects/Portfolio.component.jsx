@@ -17,7 +17,6 @@ import {
 import 'react-vertical-timeline-component/style.min.css';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
-import Container from "react-bootstrap/Container";
 
 const Portfolio = () => {
     //background style color for Icons
@@ -66,7 +65,7 @@ const Portfolio = () => {
                                 </Card>
                                 <Card>
                                     <Accordion>
-                                        <Card.Body className="d-flex justify-content-end flex-nowrap text-center"><a href={element.view} target="_blank" className="view-button">View</a></Card.Body>
+                                        <Card.Body className="d-flex justify-content-end flex-nowrap text-center"><a href={element.view} target="_blank" rel="noreferrer" className="view-button">View</a></Card.Body>
                                     </Accordion>
                                 </Card>
                             </Accordion>
